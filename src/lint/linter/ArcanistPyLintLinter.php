@@ -78,8 +78,9 @@ final class ArcanistPyLintLinter extends ArcanistExternalLinter {
     }
   }
 
-  protected function getMandatoryFlags() {
-    $options = array();
+  private function getPyLintOptions() {
+    // '-rn': don't print lint report/summary at end
+    $options = array('-rn');
 
     $options[] = '--reports=no';
     $options[] = '--msg-template="{line}|{column}|{msg_id}|{symbol}|{msg}"';
