@@ -312,7 +312,7 @@ phutil_register_library_map(array(
     'ArcanistRevertWorkflow' => 'ArcanistBaseWorkflow',
     'ArcanistRubyLinter' => 'ArcanistExternalLinter',
     'ArcanistRubyLinterTestCase' => 'ArcanistArcanistLinterTestCase',
-    'ArcanistScalaSBTLinter' => 'ArcanistLinter',
+    'ArcanistScalaSBTLinter' => 'ArcanistExternalLinter',
     'ArcanistScriptAndRegexLinter' => 'ArcanistLinter',
     'ArcanistSetConfigWorkflow' => 'ArcanistBaseWorkflow',
     'ArcanistShellCompleteWorkflow' => 'ArcanistBaseWorkflow',
