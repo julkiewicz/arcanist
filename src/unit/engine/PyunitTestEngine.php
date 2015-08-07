@@ -5,7 +5,7 @@
  *
  * @group unitrun
  */
-final class PyunitTestEngine extends ArcanistBaseUnitTestEngine {
+final class PyunitTestEngine extends ArcanistUnitTestEngine {
 
   public function run() {
     $pyunit_tmp = new TempDirectory(TRUE);
